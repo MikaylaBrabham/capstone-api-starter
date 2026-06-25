@@ -21,6 +21,7 @@ Source:
 Citations:
 *https://www.reddit.com/r/UXDesign/comments/1td2aon/has_anyone_here_started_creating_their_own_design/
 * https://departmentofproduct.substack.com/p/designmd-explained-the-format-reshaping
-* makign my own plugin: https://www.reddit.com/r/IntelliJIDEA/comments/zvxvoy/custom_plugin_help_editor_fonts/
-Implementation of Devlog 
-* m
+* making my own plugin: https://www.reddit.com/r/IntelliJIDEA/comments/zvxvoy/custom_plugin_help_editor_fonts/
+
+* Implementation of Devlog 
+* 
