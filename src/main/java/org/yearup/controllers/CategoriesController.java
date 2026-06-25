@@ -2,6 +2,7 @@ package org.yearup.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.yearup.models.Category;
 import org.yearup.models.Product;
@@ -26,6 +27,9 @@ public class CategoriesController
 
 
     // create an Autowired constructor to inject the categoryService and productService
+    /**
+     * Autowired Anotation Resource - Java guides [https://www.youtube.com/shorts/QYosE5lu4p8?feature=share]
+    **/
     @Autowired
     public CategoriesController(CategoryService categoryService, ProductService productService) {
         this.categoryService = categoryService;
@@ -33,6 +37,7 @@ public class CategoriesController
     }
 
     // add the appropriate annotation for a get action
+    @GetMapping
     public List<Category> getAll()
     {
         // find and return all categories
@@ -40,6 +45,7 @@ public class CategoriesController
     }
 
     // add the appropriate annotation for a get action
+    @GetMapping("{id}")
     public Category getById(@PathVariable int id)
     {
         // get the category by id
@@ -56,6 +62,7 @@ public class CategoriesController
     }
 
     // add annotation to call this method for a POST action
+    @PostMapping
     // add annotation to ensure that only an ADMIN can call this function
     /**
      * Preauthorize - Engineer Talks With Bushan
@@ -69,7 +76,9 @@ public class CategoriesController
     }
 
     // add annotation to call this method for a PUT (update) action - the url path must include the categoryId
+    @PutMapping("{id}")
     // add annotation to ensure that only an ADMIN can call this function
+    @PreAuthorize("hasRole('ADMIN')")
     public Category updateCategory(@PathVariable int id, @RequestBody Category category)
     {
         // update the category by id and return the updated category (200 OK)
@@ -78,7 +87,9 @@ public class CategoriesController
 
 
     // add annotation to call this method for a DELETE action - the url path must include the categoryId
+    @DeleteMapping("{id}")
     // add annotation to ensure that only an ADMIN can call this function
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Void> deleteCategory(@PathVariable int id)
     {
         // delete the category by id and return status 204 No Content
