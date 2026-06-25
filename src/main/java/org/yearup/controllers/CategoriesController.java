@@ -57,6 +57,11 @@ public class CategoriesController
 
     // add annotation to call this method for a POST action
     // add annotation to ensure that only an ADMIN can call this function
+    /**
+     * Preauthorize - Engineer Talks With Bushan
+     * [https://www.youtube.com/watch?v=djGCL0Y1lgE&pp=ygUecHJlIGF1dG9yaXplIGFubm90YXRpb24gc3ByaW5n]
+    **/
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Category> addCategory(@RequestBody Category category)
     {
         // insert the category and return it with status 201 Created
