@@ -84,7 +84,6 @@ public class CategoriesController
     public Category updateCategory(@PathVariable int id, @RequestBody Category category)
     {
         // update the category by id and return the updated category (200 OK)
-        Category newCategory =categoryService.create(category);
         return categoryService.update(id,category);
     }
 
