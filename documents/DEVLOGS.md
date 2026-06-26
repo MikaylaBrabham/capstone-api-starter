@@ -3,7 +3,7 @@
 
 
 
-## PHASE 1
+### PHASE 1 & PHASE 2
 
 ---
 - [x] LOGIN AS ADMIN
@@ -14,7 +14,7 @@
 - [x] CREATE FOLDER ORGANIZATION SYSTEM
 - [x] CREATE USER STORIES ON STORYBOARD
 
-## TO DO:
+### TO DO:
 
 ---
 - [x] RESEARCH HOW TO MAKE MD AESTHETICALLY PLEASING
@@ -33,15 +33,19 @@ AND HOW THEY ARE EXPECTED TO IMPLEMENT CHANGES
 - [ ]  ** ADD ENDPOINT FOR RECOMMENDED ASK FRIENDS && PEERS FOR THEIR INPUT
 - [ ]  ** ADD RECOMMENDED BASED OFF PEER KNOWN 
 
+
+
 ### QUESTIONABLE BEHAVIOR:
+
+---
 - [x] ADDING CITATIONS IN THE ACTUAL CODE [SUGGEST: PLACING IN DOCUMENTATION]
 
 
 
-## PHASE 2 
 
 
-##Citations:
+
+## Citations:
 
 ---
 > #### Meaningful Comments: https://www.reddit.com/r/UXDesign/comments/1td2aon/has_anyone_here_started_creating_their_own_design/
