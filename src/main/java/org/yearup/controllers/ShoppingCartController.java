@@ -1,5 +1,9 @@
 package org.yearup.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.yearup.models.ShoppingCart;
 import org.yearup.models.User;
 import org.yearup.service.ShoppingCartService;
@@ -8,12 +12,28 @@ import org.yearup.service.UserService;
 import java.security.Principal;
 
 // convert this class to a REST controller
+@RestController
+@RequestMapping("/cart")
+@CrossOrigin
+
+
 // only logged in users should have access to these actions
 public class ShoppingCartController
 {
     // a shopping cart controller depends on the service layer
     private ShoppingCartService shoppingCartService;
     private UserService userService;
+
+    //add autowired to ensure users only
+    @Autowired
+    //add constructors
+    public ShoppingCartController(ShoppingCartService shoppingCartService, UserService userService) {
+        this.shoppingCartService = shoppingCartService;
+        this.userService = userService;
+    }
+
+
+
 
 
 
