@@ -2,5 +2,4 @@
 * Creating my own plugin for my background
 * adding a secondary website to create frontend explains (frontend, backend, my explain)
 
-
-[alt text](https://chatgpt.com/backend-api/estuary/content?id=file_00000000a89871fdb45193f312c233a8&ts=495134&p=fs&cid=1&sig=289c21d63d319625e5f3f2e7a5ef13448a2873baa158001a3aaef47511dfbdf5&v=0)
+* <img width="1070" height="611" alt="image" src="https://github.com/user-attachments/assets/6e8e9a3f-5ba6-4e74-8651-0aca0c94b33a" />
