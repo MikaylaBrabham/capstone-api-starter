@@ -47,13 +47,13 @@ public class ShoppingCartController
     }
 
     // add a POST method to add a product to the cart - the url should be
-    @PostMapping("products"/{"productId"})
+    @PostMapping("products/{productId}")
     // https://localhost:8080/cart/products/15  (15 is the productId to be added)
     // return the updated cart with status 201 Created
 
 
     // add a PUT method to update an existing product in the cart - the url should be
-    @PutMapping("/products"/{"productId"})
+    @PutMapping("/products/{productId}")
     // https://localhost:8080/cart/products/15  (15 is the productId to be updated)
     // the BODY should be a ShoppingCartItem - quantity is the only value that will be updated; return the cart (200 OK)
 
