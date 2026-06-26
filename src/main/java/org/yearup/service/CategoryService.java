@@ -16,33 +16,35 @@ public class CategoryService
         this.categoryRepository = categoryRepository;
     }
 
+
     public List<Category> getAllCategories()
     {
         // get all categories
-        return CategoryRepository.findAll();
+        return categoryRepository.findAll();
     }
 
     public Category getById(int categoryId)
     {
         // get category by id
-        return CategoryRepository.findById(categoryId);
+        return categoryRepository.findById(categoryId).orElse(null);
     }
 
     public Category create(Category category)
     {
         // create a new category
-        return CategoryRepository.create(category);
+        return categoryRepository.save(category);
     }
 
     public Category update(int categoryId, Category category)
     {
         // update category and return the updated category
-        return CategoryRepository.update(categoryId,category);
+        category.setCategoryId(categoryId);
+        return categoryRepository.save(category);
     }
 
     public void delete(int categoryId)
     {
         // delete category
-        categoryRepository.delete(categoryId);
+        categoryRepository.deleteById(categoryId);
     }
 }
