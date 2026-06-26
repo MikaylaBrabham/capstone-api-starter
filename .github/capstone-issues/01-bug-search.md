@@ -13,9 +13,9 @@ the products in the database. Some products that exist are missing from the resp
 try the `cat`, `minPrice`, `maxPrice`, and `subCategory` filters and combinations.
 
 ### Tasks
-- [ ] Reproduce the missing-products behavior (manual debugging + Insomnia)
-- [ ] Find and fix the cause so search returns **every** matching product
-- [ ] Add a unit test that proves the fix
+- [ x] Reproduce the missing-products behavior (manual debugging + Insomnia)
+- [ x] Find and fix the cause so search returns **every** matching product
+- [ x] Add a unit test that proves the fix
 
 ### Done when
 - Searching with any combination of filters returns all matching products
