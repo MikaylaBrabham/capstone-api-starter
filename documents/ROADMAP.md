@@ -7,4 +7,5 @@
 
 ##  Design:
 
-### Canva. https://coolors.co/230007-d7cf07-d98324-a40606-5a0002
+### Canva. https://www.canva.com/design/DAHNmpbDLT0/rNWjG5MPnvnyWvx5k-b8BQ/edit
+### Color Palatte https://coolors.co/230007-d7cf07-d98324-a40606-5a0002
