@@ -1,16 +1,11 @@
-DEVLOGS 
+## DEVLOGS - Implementation of Devlog ##
 
 
-Citations:
-*https://www.reddit.com/r/UXDesign/comments/1td2aon/has_anyone_here_started_creating_their_own_design/
-* https://departmentofproduct.substack.com/p/designmd-explained-the-format-reshaping
-* making my own plugin: https://www.reddit.com/r/IntelliJIDEA/comments/zvxvoy/custom_plugin_help_editor_fonts/
-
-* Implementation of Devlog 
 
 
-## PHASE 1 ##
+## PHASE 1
 
+---
 - [x] LOGIN AS ADMIN
 - [x] CREATE DIAGRAM HIGH LEVEL
 - [x] FIX CATEGORIESCONTROLLER
@@ -19,9 +14,11 @@ Citations:
 - [x] CREATE FOLDER ORGANIZATION SYSTEM
 - [x] CREATE USER STORIES ON STORYBOARD
 
-### TODO:
+## TO DO:
+
+---
 - [x] RESEARCH HOW TO MAKE MD AESTHETICALLY PLEASING
-- [ ]  IMPLEMENT MD
+- [ ] IMPLEMENT MD
 - [ ] RESEARCH HOW TO MAKE INSOMNIA DOC PREVIEW AESTHETICALLY PLEASING
 - [ ] IMPLEMENT DOC
 - [ ] INSERT DIAGRAM: CHOICE BETWEEN README || PRESENTATION 
@@ -37,8 +34,20 @@ AND HOW THEY ARE EXPECTED TO IMPLEMENT CHANGES
 - [ ]  ** ADD RECOMMENDED BASED OFF PEER KNOWN 
 
 ### QUESTIONABLE BEHAVIOR:
-- [ ] ADDING CITATIONS IN THE ACTUAL CODE [SUGGEST: PLACING IN DOCUMENTATION]
+- [x] ADDING CITATIONS IN THE ACTUAL CODE [SUGGEST: PLACING IN DOCUMENTATION]
 
 
 
-## PHASE 2 ##
+## PHASE 2 
+
+
+##Citations:
+
+---
+> #### Meaningful Comments: https://www.reddit.com/r/UXDesign/comments/1td2aon/has_anyone_here_started_creating_their_own_design/
+
+> #### Using Design.md:  https://departmentofproduct.substack.com/p/designmd-explained-the-format-reshaping
+
+> #### Making My Own Plugin: https://www.reddit.com/r/IntelliJIDEA/comments/zvxvoy/custom_plugin_help_editor_fonts/
+
+> #### Markdown: https://www.markdownguide.org/cheat-sheet/
